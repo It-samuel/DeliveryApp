@@ -11,6 +11,3 @@ export const colors = {
     cardBackground: "white",
 }
 
-export const parameters = {
-    
-}

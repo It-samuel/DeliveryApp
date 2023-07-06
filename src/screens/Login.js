@@ -6,6 +6,7 @@ import { Button, Input, ListItem, Image } from "@rneui/base";
 import { TextInput } from "react-native";
 import { TouchableOpacity } from "react-native";
 import {Icon, SocialIcon} from 'react-native-elements';
+import fonts from '../assets/fonts'
 
 export default function Login({navigation}){
     return(
@@ -90,7 +91,7 @@ const styles = StyleSheet.create({
         fontSize: 40,
         color: 'white',
         
-        fontFamily: ''
+        fontFamily: "Lobster"
         
     },
     bottomView:{
